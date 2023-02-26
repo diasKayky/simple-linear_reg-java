@@ -75,10 +75,10 @@ public class RegressaoLinearSimples {
 	
 		
 	public static void main(String[] args) {
-		double[] caralho = {1, 5, 1}; 
-		double[] porra = {2, 10, 2};
-		double nam = calculaCoef(caralho, porra);
-		double cam = calculaIntercepto(caralho, porra);
+		double[] x = {1, 5, 1}; 
+		double[] y = {2, 10, 2};
+		double nam = calculaCoef(x, y);
+		double cam = calculaIntercepto(x, y);
 		System.out.println(nam);
 		System.out.println(cam);
 	}
