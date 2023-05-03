@@ -1,2 +1,2 @@
-# simple-linear_reg-java
+# Regressão linear simples do zero em Java.
  
